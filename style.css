@@ -1,0 +1,35 @@
+body {
+  background-color: #f1f1f1;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formulario {
+  width: 50rem;
+  background-color: rgb(240, 238, 248);
+}
+
+h1 {
+  color: rgb(110, 71, 253);
+}
+
+.boton {
+  background-color: rgb(110, 71, 253);
+  border-color: rgb(110, 71, 253);
+}
+
+.boton:hover {
+  background-color: rgb(83, 53, 192);
+}
+
+.boton:not(:disabled):not(:disabled):active {
+  background-color: rgb(67, 42, 155);
+  border-color: rgb(110, 71, 253);
+}
+
+.campo::placeholder {
+  color: rgb(199, 199, 199);
+}
+
+.error {
+    border: 3px solid #c21515;
+}
